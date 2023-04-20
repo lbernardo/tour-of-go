@@ -13,6 +13,14 @@ func main() {
 	// short variable declarations use :=
 	text := "more than words"
 	fmt.Println(i, cobol, python, clojure, a, b, c, text)
+
+	x := 5
+	fmt.Println("x", x)
+	if true {
+		x := 10
+		fmt.Println("x", x)
+	}
+	fmt.Println("x", x)
 }
 
 /**
